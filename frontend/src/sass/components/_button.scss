@@ -1,0 +1,10 @@
+.btn {
+    &:link,
+    &:visited {
+        color: $color-white;
+        text-decoration: none;
+        text-transform: uppercase;
+        display: block;
+        margin: 0 0 3rem 0;
+    }
+}

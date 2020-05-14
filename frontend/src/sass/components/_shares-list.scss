@@ -1,0 +1,13 @@
+.shares-list {
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    &--animated {
+        animation: moveInBottom .5s ease-out;
+        animation-fill-mode: backwards;
+    }
+}

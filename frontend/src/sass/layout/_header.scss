@@ -1,0 +1,19 @@
+.header {
+    height: 10rem;
+    background-color: $color-dark-grey;
+    align-items: center;
+    position: relative;
+
+    &--text-box {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+
+    &--animated {
+        animation: moveInTop .5s ease-out;
+        animation-fill-mode: backwards;
+    }
+}

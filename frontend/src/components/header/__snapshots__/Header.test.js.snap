@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header component should match with snapshot version 1`] = `
+<div>
+  <header
+    class="header header--animated"
+  >
+    <div
+      class="header--text-box"
+    >
+      <h1
+        class="heading-primary"
+      >
+        Serverless Shares
+      </h1>
+    </div>
+  </header>
+</div>
+`;

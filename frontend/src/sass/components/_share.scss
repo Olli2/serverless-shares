@@ -1,0 +1,35 @@
+.share {
+    border: 1px solid grey;
+    position: relative;
+    height: 3rem;
+    margin-top: 1.3rem;
+    margin-left: 1.3rem;
+    min-width: 27rem;
+    border-radius: 4px;
+
+    &__title {
+        position: absolute;
+        top: 50%;
+        left: 2rem;
+        transform: translateY(-50%)
+    }
+
+    &__info {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 2rem
+    }
+}
+
+.positive {
+    background-color: rgba(23, 134, 23, 0.7);
+}
+
+.neutral {
+    background-color: rgba(231, 233, 106, 0.7);
+}
+
+.negative {
+    background-color: rgba(190, 48, 48, 0.7);
+}
