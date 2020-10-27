@@ -5,8 +5,8 @@ export const useShares = () => {
     const [shares, setShares] = useState();
     const [pending, setPending] = useState();
     const [error, setError] = useState();
+    
     useEffect(() => {
-      
         const callFetchShares = async () => {
             setPending(true);
             setError(undefined);
